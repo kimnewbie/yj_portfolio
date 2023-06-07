@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-sns.png";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/project-chat.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -17,9 +17,10 @@ export const Projects = () => {
             link: "https://mern-full-stack-app-psi.vercel.app"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Chat(socket.io)",
+            description: "Chatting App",
             imgUrl: projImg2,
+            link: "https://mern-chat-app-eight.vercel.app"
         },
         {
             title: "Business Startup",
