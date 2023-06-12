@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-sns.png";
 import projImg2 from "../assets/img/project-chat.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-dashboard.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -23,9 +24,10 @@ export const Projects = () => {
             link: "https://mern-chat-app-eight.vercel.app"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Dashboard",
+            description: "Nivo Chart",
+            imgUrl: projImg4,
+            link: "https://mern-admin-dashboard-mu.vercel.app/dashboard"
         },
         {
             title: "Business Startup",
